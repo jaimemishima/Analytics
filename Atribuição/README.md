@@ -21,6 +21,6 @@ pathConversion = function(input, n_gram)
 ** dataframe com os n_grams, a quantidade e conversões.
 
 ## Referências
-### https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf
-### https://analyzecore.com/2016/08/03/attribution-model-r-part-1/
-### https://www.analyticsvidhya.com/blog/2018/01/channel-attribution-modeling-using-markov-chains-in-r/
+* [ChannelAttribution](https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf) - Library utilizada
+* [Analyzecore](https://analyzecore.com/2016/08/03/attribution-model-r-part-1/) - Exemplo modelo utilizado
+* [Analyticsvidhya](https://www.analyticsvidhya.com/blog/2018/01/channel-attribution-modeling-using-markov-chains-in-r/) - Exemplo modelo utilizado
