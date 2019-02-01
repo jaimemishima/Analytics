@@ -8,6 +8,7 @@
 - Pyculiarity: versão em Python do pacote em R do Twitter
 - Z-Score: Exploração do Z-Score e Z-score Modificado
 - STL: Detecção usando Seasonal and Trend Decomposition using Loess
+- Isolation Forest: [Tentative] Princípio similar ao de Random Forest.
 
 ## Atribution
 - Cadeias de Markov
@@ -18,4 +19,4 @@
 
 ## Propension
 - BQML para base de dados da Google Merchandising Store
-- Notebook em Python comparando modelos do scikit-learn
+- Notebook em Python comparando modelos do scikit-learn: da extração do BQ ao pipeline e modelagem
