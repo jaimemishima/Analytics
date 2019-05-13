@@ -1,0 +1,74 @@
+---
+title: "R Basics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+#chooseCRANmirror(graphics=FALSE, ind=1)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objectives
+
+This is a Markdown document containing basic R commands. The aim is to have reusable code templates.
+
+## Setup
+#### Working directory
+```{r}
+setwd("~/Desktop/Jaime/MBA/R Codes")
+getwd()
+```
+#### Understanding a function
+```{r}
+# Example shows templates to understand a R function
+example(getwd)
+```
+
+#### Read a csv file
+```{r}
+points <- read.csv("points.csv", sep=",")
+head(points, 5)
+#View(points) # View is with a capital letter
+```
+
+
+
+## Structures
+#### Vector
+```{r}
+# Vector mixing types
+vector_name <- c(1, "string")
+vector_name
+```
+#### Matrix
+```{r}
+# Create a 3x2 matrix
+matrix_name <- matrix(1:6, nrow = 3, ncol = 2)
+matrix_name
+```
+#### Dataframe
+```{r}
+column1 <- c("col1_1", "col1_2")
+column2 <- c(10,20)
+# Create a dataframe joining both vectors
+df <- data.frame(column1, column2)
+df
+```
+#### Define a type of a object
+```{r}
+class(df)
+```
+#### Functions
+```{r}
+# Create a function to print squares of numbers in sequence.
+new.function <- function(a) {
+   for(i in 1:a) {
+      b <- i^2
+      print(b)
+   }
+}
+
+new.function(4)
+```
+
+
