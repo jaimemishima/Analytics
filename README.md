@@ -1,22 +1,25 @@
 # Data-Science
 
 ## About
-  Implementação em R e Python de projetos de técnicas de detecção de anomalias, atribuição e previsão de vendas.
+- R and Python implementations of Anomaly Detection, Attribution and Forecasting Techniques.
+- Templates of Google Cloud integrations (Integração Cloud and Integração Google BigQuery)
+- R codes: Folder containing useful and recurrent R line codes.
+- Big Data: Folder containing Hadoop explanations and line codes using Cloudera distribution.
   
 ## Anomaly Detection
 
-- Pyculiarity: versão em Python do pacote em R do Twitter
-- Z-Score: Exploração do Z-Score e Z-score Modificado
-- STL: Detecção usando Seasonal and Trend Decomposition using Loess
-- Isolation Forest: [Tentative] Princípio similar ao de Random Forest.
+- Pyculiarity: Pythen version of R package created by Twitter.
+- Z-Score: Z-Score and Modified Z-Score exploration.
+- STL: Detection using Seasonal and Trend Decomposition using Loess
+- Isolation Forest: [Tentative] Similar principle to the Random Forest.
 
-## Atribution
-- Cadeias de Markov
-- Agrupamento de canais n-n
+## Attribution
+- Markov Chain
+- Channel Grouping n-n
 
 ## Forecast
-- Previsão de vendas em time series
+- Time Series Sales Forecasting
 
 ## Propension
-- BQML para base de dados da Google Merchandising Store
-- Notebook em Python comparando modelos do scikit-learn: da extração do BQ ao pipeline e modelagem
+- BQML (BigQuery Machine Learning) for the Google Merchandising Store Database.
+- Python Notebook comparing scikti-learn models: from BQ Extraction to Pipeline and Modeling.
