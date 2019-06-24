@@ -1,0 +1,6 @@
+﻿visitor_id,visit_num,hit_time_gmt,post_event_list,post_campaign,Channel,mid_campaign,conversion
+10_01,1,1501012342,",20,100,115,117,",campaign_id_1,Natural_Search,Natural_Search,0
+10_02,1,1502122700,",20,100,115,117,",campaign_id_1,Natural_Search,Natural_Search,0
+10_03,1,1499993133,",105,113,127,",campaign_id_1,Natural_Search,,0
+10_03,1,1499993124,",105,113,127,",,,,0
+10_03,1,1499993125,",20,100,115,127,",campaign_id_2,Natural_Search,Natural_Search,1

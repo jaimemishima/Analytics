@@ -1,0 +1,11 @@
+﻿visitor_id,hit_time_gmt,mid_campaign,conversion
+10_01,1,Natural_Search,0
+10_02,2,Natural_Search,0
+10_03,3,Paid_Search,0
+10_03,4,Paid_Search,0
+10_03,5,Natural_Search,1
+10_03,6,Display,0
+10_03,7,Email,1
+10_04,1,Display,0
+10_05,2,Display,1
+10_06,3,Social_Media,0
