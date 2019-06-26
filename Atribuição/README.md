@@ -9,11 +9,11 @@ Código em R para comparar o modelo de Markov com modelos heurísticos. Exporta�
 ## Shapley Value
 Abordagem baseada no conceito da teoria de jogo cooperativo. É uma solução que resolve o problema de dividir o payoff de um jogo entre os jogadores que tiveram uma contribuição desigual. Similar ao cenário de distribuir crédito para uma conversão online entre canais de marketing.
 
-## Path Conversion
-Código em R para estudo das principais combinações de canais em caminhos de conversão.
-
 ## MTA
 Classe desenvolvida pelo Igor Korostil com implementações de multi-touch attribution. Mais detalhes no [github](https://github.com/eeghor/mta). Salvo a matriz de transição do método de markov em um dict com chave 'markov' e ploto a matriz de transição com seaborn.
+
+## Path Conversion
+Código em R para estudo das principais combinações de canais em caminhos de conversão.
 
 ```
 pathConversion = function(input, n_gram)
