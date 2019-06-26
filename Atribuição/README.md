@@ -12,6 +12,9 @@ Abordagem baseada no conceito da teoria de jogo cooperativo. É uma solução qu
 ## Path Conversion
 Código em R para estudo das principais combinações de canais em caminhos de conversão.
 
+## MTA
+Classe desenvolvida pelo Igor Korostil com implementações de multi-touch attribution. Mais detalhes no [github](https://github.com/eeghor/mta). Salvo a matriz de transição do método de markov em um dict com chave 'markov' e ploto a matriz de transição com seaborn.
+
 ```
 pathConversion = function(input, n_gram)
 ```
@@ -27,4 +30,5 @@ pathConversion = function(input, n_gram)
 * [ChannelAttribution](https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf) - Library utilizada
 * [Analyzecore](https://analyzecore.com/2016/08/03/attribution-model-r-part-1/) - Exemplo modelo utilizado
 * [Analyticsvidhya](https://www.analyticsvidhya.com/blog/2018/01/channel-attribution-modeling-using-markov-chains-in-r/) - Exemplo modelo utilizado
-* [DataFeedToolbox] (http://datafeedtoolbox.com/attribution-theory-the-two-best-models-for-algorithmic-marketing-attribution-implemented-in-apache-spark-and-r/) - Exemplo modelo Shapley Value
+* [DataFeedToolbox](http://datafeedtoolbox.com/attribution-theory-the-two-best-models-for-algorithmic-marketing-attribution-implemented-in-apache-spark-and-r/) - Exemplo modelo Shapley Value
+* [MTA Igor Korostil](https://github.com/eeghor/mta)
