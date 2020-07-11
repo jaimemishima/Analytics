@@ -1,4 +1,4 @@
-# Data-Science
+# Analytics
 
 ## About
 - R and Python implementations of Anomaly Detection, Attribution and Forecasting Techniques.
